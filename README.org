@@ -53,27 +53,28 @@ In more detail:
   + When scenes overlap, use minimum SZA
 
 ** Outputs
-| File Name                     | Description                                                            | Units       |
-|-------------------------------+------------------------------------------------------------------------+-------------|
-| grain_diameter                |                                                                        | mm          |
-| snow_specific_surface_area    |                                                                        | m^{2}kg^{-1}|
-| ndsi                          | normalized difference snow index                                       |             |
-| ndbi                          | normalized difference blue ice index                                   |             |
-| auto_cloud                    | in development                                                         |             |
-| sza                           | sun zenith angle                                                       |             |
-| vza                           | viewing zenith angle                                                   |             |
-| saa                           | sun azimuth angle                                                      |             |
-| vaa                           | viewing azimuth angle                                                  |             |
-| albedo_bb_planar_nir          | near infrared broadband planar albedo                                  | 700-2400 nm |
-| albedo_bb_planar_sw           | shortwave broadband planar albedo                                      | 300-2400 nm |
-| albedo_bb_planar_vis          | visible broadband planar albedo                                        | 300-700 nm  |
-| albedo_bb_spherical_nir       | near infrared broadband spherical albedo                               | 700-2400 nm |
-| albedo_bb_spherical_sw        | shortwave broadband spherical albedo                                   | 300-2400 nm |
-| albedo_bb_spherical_vis       | visible broadband spherical albedo                                     | 300-700 nm  |
-| Oa01..21_reflectance          | top of the atmosphere reflectance (OLCI bands 1 through 21)            |             |
-| rBRR_01..21                   | bottom of the atmosphere surface reflectance (OLCI bands 1 through 21) |             |
-| albedo_spectral_planar_01..21 | spectral planar albedo (OLCI bands 1 through 21)                       |             |
-| diagnostic_retrieval          | See next table.                                                        |             |
+| File Name                        | Description                                                            | Units       |
+|----------------------------------+------------------------------------------------------------------------+-------------|
+| grain_diameter                   |                                                                        | mm          |
+| snow_specific_surface_area       |                                                                        | m^{2}kg^{-1}|
+| ndsi                             | normalized difference snow index                                       |             |
+| ndbi                             | normalized difference blue ice index                                   |             |
+| auto_cloud                       | in development                                                         |             |
+| sza                              | sun zenith angle                                                       |             |
+| vza                              | viewing zenith angle                                                   |             |
+| saa                              | sun azimuth angle                                                      |             |
+| vaa                              | viewing azimuth angle                                                  |             |
+| albedo_bb_planar_nir             | near infrared broadband planar albedo                                  | 700-2400 nm |
+| albedo_bb_planar_sw              | shortwave broadband planar albedo                                      | 300-2400 nm |
+| albedo_bb_planar_vis             | visible broadband planar albedo                                        | 300-700 nm  |
+| albedo_bb_spherical_nir          | near infrared broadband spherical albedo                               | 700-2400 nm |
+| albedo_bb_spherical_sw           | shortwave broadband spherical albedo                                   | 300-2400 nm |
+| albedo_bb_spherical_vis          | visible broadband spherical albedo                                     | 300-700 nm  |
+| Oa01..21_reflectance             | top of the atmosphere reflectance (OLCI bands 1 through 21)            |             |
+| rBRR_01..21                      | bottom of the atmosphere surface reflectance (OLCI bands 1 through 21) |             |
+| albedo_spectral_planar_01..21    | spectral planar albedo (OLCI bands 1 to 11 and 16 to 21)               |             |
+| albedo_spectral_spherical_01..21 | spectral spherical albedo (OLCI bands 1 to 11 and 16 to 21)            |             |
+| diagnostic_retrieval             | See next table.                                                        |             |
 
 
 | Diagnostic Code | Description                                                                                   |
