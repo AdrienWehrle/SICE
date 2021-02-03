@@ -88,6 +88,13 @@ In more detail:
 |             104 | grain_diameter < 0.1, no retrieval, potential cloud flag                                      |
 |              -n | impossible to solve polluted snow albedo equation at band n                                   |
 
+* Slopey
+
+The Slopey option computes effective solar/viewing angles to obtain reflectance products accounting for slopes.
+This terrain correction is an option of the SICE toolchain that can be enabled in [[./S3_wrapper.sh]]. The associated outputs
+have the same file names as in the table presented above. 
+
+
 * Debugging & Testing
 
 Change the year and day for loops in [[./S3_wrapper.sh]] to one year and one day. E.g.
