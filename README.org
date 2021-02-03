@@ -88,6 +88,7 @@ In more detail:
 | num_scenes.tif                       | number of scenes in daily mosaic                                       |             |
 | nume_scenes_cloudfree.tif            | number of cloud free scenes in daily mosaic                            |             |
 
+
 | Diagnostic Code | Description                                                                                   |
 |-----------------+-----------------------------------------------------------------------------------------------|
 |               0 | clean snow                                                                                    |
