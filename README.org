@@ -90,7 +90,7 @@ In more detail:
 
 * Slopey
 
-The Slopey option computes effective solar/viewing angles to obtain reflectance products accounting for slopes.
+The Slopey option computes effective solar/viewing angles based on ArcticDEM to obtain reflectance products accounting for slopes.
 This terrain correction is an option of the SICE toolchain that can be enabled in [[./S3_wrapper.sh]]. The associated outputs
 have the same file names as in the table presented above. 
 
