@@ -53,29 +53,40 @@ In more detail:
   + When scenes overlap, use minimum SZA
 
 ** Outputs
-| File Name                        | Description                                                            | Units       |
-|----------------------------------+------------------------------------------------------------------------+-------------|
-| grain_diameter                   |                                                                        | mm          |
-| snow_specific_surface_area       |                                                                        | m^{2}kg^{-1}|
-| ndsi                             | normalized difference snow index                                       |             |
-| ndbi                             | normalized difference blue ice index                                   |             |
-| auto_cloud                       | in development                                                         |             |
-| sza                              | sun zenith angle                                                       |             |
-| vza                              | viewing zenith angle                                                   |             |
-| saa                              | sun azimuth angle                                                      |             |
-| vaa                              | viewing azimuth angle                                                  |             |
-| albedo_bb_planar_nir             | near infrared broadband planar albedo                                  | 700-2400 nm |
-| albedo_bb_planar_sw              | shortwave broadband planar albedo                                      | 300-2400 nm |
-| albedo_bb_planar_vis             | visible broadband planar albedo                                        | 300-700 nm  |
-| albedo_bb_spherical_nir          | near infrared broadband spherical albedo                               | 700-2400 nm |
-| albedo_bb_spherical_sw           | shortwave broadband spherical albedo                                   | 300-2400 nm |
-| albedo_bb_spherical_vis          | visible broadband spherical albedo                                     | 300-700 nm  |
-| Oa01..21_reflectance             | top of the atmosphere reflectance (OLCI bands 1 through 21)            |             |
-| rBRR_01..21                      | bottom of the atmosphere surface reflectance (OLCI bands 1 through 21) |             |
-| albedo_spectral_planar_01..21    | spectral planar albedo (OLCI bands 1 to 11 and 16 to 21)               |             |
-| albedo_spectral_spherical_01..21 | spectral spherical albedo (OLCI bands 1 to 11 and 16 to 21)            |             |
-| diagnostic_retrieval             | See next table.                                                        |             |
-
+| File Name                            | Description                                                            | Units       |
+|--------------------------------------+------------------------------------------------------------------------+-------------|
+| grain_diameter.tif                   | Snow grain diameter                                                    | mm          |
+| snow_specific_surface_area.tif       | Snow specific surface area                                             | m^{2}kg^{-1}|
+| NDSI.tif                             | Normalized Difference Snow Index                                       |             |
+| NDBI.tif                             | Normalized Difference Blue ice Index                                   |             |
+| SCDA_final.tif                       | Simple Cloud Detection Algorithm                                       |             |
+| SZA.tif                              | Solar Zenith Angle                                                     |             |
+| sza_lut.tif                          | Solar Zenith Angle LookUp Table                                        |             |
+| SAA.tif                              | Solar Azimuth Angle                                                    |             |
+| OZA.tif                              | Observation Zenith Angle                                               |             |
+| OAA.tif                              | Observation Azimtuh Angle                                              |             |
+| albedo_bb_planar_nir.tif             | near infrared broadband planar albedo                                  | 700-2400 nm |
+| albedo_bb_planar_sw.tif              | shortwave broadband planar albedo                                      | 300-2400 nm |
+| albedo_bb_planar_vis.tif             | visible broadband planar albedo                                        | 300-700 nm  |
+| albedo_bb_spherical_nir.tif          | near infrared broadband spherical albedo                               | 700-2400 nm |
+| albedo_bb_spherical_sw.tif           | shortwave broadband spherical albedo                                   | 300-2400 nm |
+| albedo_bb_spherical_vis.tif          | visible broadband spherical albedo                                     | 300-700 nm  |
+| r_TOA_01..21.tif                     | Top Of the Atmosphere reflectance (OLCI bands 1 through 21)            |             |
+| rBRR_01..21.tif                      | bottom of the atmosphere surface reflectance (OLCI bands 1 through 21) |             |
+| BT_S7..9.tif                         | Brightness Temperatures (SLSTR bands 7 to 9)                           |             |
+| r_TOA_S1..S5.tif                     | Top of the Atmosphere reflectance (SLSTR bands 1 to 5)                 |             | 
+| albedo_spectral_planar_01..21.tif    | spectral planar albedo (OLCI bands 1 to 11 and 16 to 21)               |             |
+| albedo_spectral_spherical_01..21.tif | spectral spherical albedo (OLCI bands 1 to 11 and 16 to 21)            |             |
+| diagnostic_retrieval.tif             | See next table                                                         |             |
+| height.tif                           | Altitude from the SRAL instrument (Ku/C Radar Altimeter)               |             |
+| conc.tif                             | pollutant concentration (volumetric concentration)                     |             |
+| al.tif                               | effective absorption length(mm)                                        |             |
+| r0.tif                               | reflectance of a semi-infinite non-absorbing snow layer                |             |
+| 03.tif                               | total ozone product (OLCI)                                             |             |
+| 03_SICE.tif                          | total ozone product (OLCI) corrected for ozone scattering              |             |
+| WV.tif                               | Total column Water Vapor (OLCI)                                        |             |
+| num_scenes.tif                       | number of scenes in daily mosaic                                       |             |
+| nume_scenes_cloudfree.tif            | number of cloud free scenes in daily mosaic                            |             |
 
 | Diagnostic Code | Description                                                                                   |
 |-----------------+-----------------------------------------------------------------------------------------------|
