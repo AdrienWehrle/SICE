@@ -1,3 +1,4 @@
+This repository is no longer updated, any development is now happening in the new [[https://github.com/GEUS-SICE/SICE][SICE repository]] of the [[https://github.com/GEUS-SICE][GEUS-SICE organization]]. 
 
 
 * Table of Contents                               :toc_2:noexport:
